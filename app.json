@@ -38,7 +38,7 @@
             "url": "heroku/python"
         },
         {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+            "url": "https://github.com/Mustaf1234hassan/heroku-buildpack-ffmpeg-latest"
         }
     ],
     "formation": {

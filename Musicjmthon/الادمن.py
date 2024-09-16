@@ -41,7 +41,7 @@ async def skip(client, m: Message):
             await m.reply(OP)
 
 
-@Client.on_message(filters.command(["انهاء", "توقف"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["انهاء", "ايقاف"], prefixes=f"{HNDLR}"))
 @authorized_users_only
 async def stop(client, m: Message):
     await m.delete()
@@ -57,7 +57,7 @@ async def stop(client, m: Message):
         await m.reply("**❌ لايوجد هناك اغنيه شغاله !**")
 
 
-@Client.on_message(filters.command(["ايقاف"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["توقف"], prefixes=f"{HNDLR}"))
 @authorized_users_only
 async def pause(client, m: Message):
     await m.delete()
